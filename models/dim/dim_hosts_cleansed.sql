@@ -4,7 +4,7 @@
     )
 }}
 WITH src_hosts AS (
-    SELECT * FROM {{ref("src_hosts")}}
+    SELECT * FROM {{ ref("src_hosts") }}
 )
 SELECT
     host_id,

@@ -47,6 +47,7 @@ models:
       +materialized: table
     src:
       +materialized: ephemeral
+
 vars:
-  user_name: default_user_name_for_this_project    
+  user_name: "tummala99"    
 
